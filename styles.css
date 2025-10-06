@@ -1,0 +1,78 @@
+.table {
+ width: 400px;
+ height: 300px;
+
+ /* Task 1: linear-gradient background from forestgreen to darkgreen */
+ background: linear-gradient(to bottom right, forestgreen, darkgreen);
+}
+
+.card-red {
+ color: red;
+}
+
+.card-black {
+ color: black;
+}
+
+.card {
+ background-color: whitesmoke;
+ border: 1px solid black;    
+ width: 100px;
+ height: 160px;
+ line-height: 160px;
+ text-align: center;
+ font-size: 80px;
+ 
+ /* Needed to position the symbols and the card absolutely within the table */
+ position: relative; 
+ 
+ /* Task 1: border-radius and box-shadow */
+ border-radius: 5px;
+ box-shadow: 3px 3px 0px black;
+}  
+
+.card-top {
+ /* Task 1: Absolute positioning and z-index */
+ position: absolute;
+ left: 150px;
+ top: 100px;
+ z-index: 2; /* Make this card appear on top */
+}
+
+.card-bottom {
+ /* Task 1: Absolute positioning and z-index */
+ position: absolute;
+ left: 240px;
+ top: 120px;
+ z-index: 1;
+}
+
+.heart {
+ color: red;
+ font-size: 28px;
+ width: 30px;
+ height: 30px;
+ line-height: 30px;
+}
+
+.spade {
+ color: black;
+ font-size: 36px;
+ width: 30px;
+ height: 30px;
+ line-height: 30px;
+}
+
+.top-left {
+ /* Task 1: Absolute positioning for corner symbol */
+ position: absolute;
+ left: 2px;
+ top: 2px;
+}
+
+.bottom-right {
+ /* Task 1: Absolute positioning for corner symbol */
+ position: absolute;
+ right: 2px;
+ bottom: 2px;
+}
